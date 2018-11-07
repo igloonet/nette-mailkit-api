@@ -1,0 +1,34 @@
+{
+    "name": "igloonet/nette-mailkit-api",
+    "type": "library",
+    "description": "Mailkit api client library for nette framework",
+    "keywords": ["igloonet", "mailkit", "mail"],
+    "authors": [
+        {
+            "name": "Miroslav Čížek",
+            "email": "cizek@iglonet.net"
+        },
+        {
+            "name": "Roman Bracinik",
+            "email": "fejjo@igloonet.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "nette/di": "^2.4",
+        "igloonet/mailkit-api": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Igloonet\\NetteMailkitApi\\": "src/"
+        }
+    },
+    "require-dev": {
+        "nette/tester": "^2.1",
+        "nette/application": "^2.4",
+        "nette/neon": "^2.4",
+        "nette/bootstrap": "^2.4",
+        "nette/robot-loader": "^3.1",
+        "nette/finder": "^2.4"
+    }
+}
