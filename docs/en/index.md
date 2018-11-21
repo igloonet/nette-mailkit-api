@@ -43,3 +43,8 @@ class Mailer
 	// ...
 
 ```
+Documentation
+------------
+
+Learn more in the [documentation](https://github.com/igloonet/mailkit-api/blob/master/docs/en/index.md).
+
