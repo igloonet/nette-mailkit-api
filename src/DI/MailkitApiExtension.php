@@ -8,6 +8,7 @@ use Igloonet\MailkitApi\MailkitApi;
 use Igloonet\MailkitApi\Managers\MessagesManager;
 use Igloonet\MailkitApi\Managers\UsersManager;
 use Igloonet\MailkitApi\Managers\MailingListsManager;
+use Igloonet\MailkitApi\Managers\WebHooksManager;
 use Igloonet\MailkitApi\RPC\Client;
 use Nette;
 
@@ -62,6 +63,11 @@ class MailkitApiExtension extends Nette\DI\CompilerExtension
 
 			$mailkitApiArgs[$managerName.'Manager'] = '@'.$this->prefix('managers.'.$managerName);
 		}
+
+		$builder->addDefinition($this->prefix('managers.webHooks'))
+			->setClass(WebHooksManager::class);
+
+		$mailkitApiArgs['webHooksManager'] = '@'.$this->prefix('managers.webHooks');
 
 		$builder->addDefinition($this->prefix('api'))
 			->setClass(MailkitApi::class)
