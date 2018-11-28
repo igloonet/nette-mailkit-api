@@ -3,13 +3,14 @@
     "type": "library",
     "description": "Mailkit api client library for nette framework",
     "keywords": ["igloonet", "mailkit", "mail"],
+    "license": ["BSD-3-Clause"],
     "authors": [
         {
             "name": "Miroslav Čížek",
             "email": "cizek@iglonet.cz"
         },
         {
-            "name": "Roman Bracinik",
+            "name": "Roman Braciník",
             "email": "fejjo@igloonet.cz"
         }
     ],
