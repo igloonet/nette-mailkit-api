@@ -16,7 +16,7 @@
     "require": {
         "php": ">=7.1.0",
         "nette/di": "^2.4",
-        "igloonet/mailkit-api": "^0.9"
+        "igloonet/mailkit-api": "^1.0"
     },
     "autoload": {
         "psr-4": {
