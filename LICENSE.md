@@ -3,7 +3,7 @@
 
 Note: This license has also been called the "New BSD License" or "Modified BSD License". See also the 2-clause BSD License.
 
-Copyright 2018 igloonet
+Copyright 2018 Mailkit s.r.o.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
